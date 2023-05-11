@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kyklos</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingrese_los_datos">Ingrese los Datos</string>
+    <string name="fecha">Fecha</string>
+    <string name="lugar">Lugar</string>
+    <string name="region">region</string>
+    <string name="campa_a">Campaña</string>
+    <string name="origen">Origen</string>
+</resources>
