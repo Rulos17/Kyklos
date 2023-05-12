@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SiguienteActivity">
+
+    <EditText
+        android:id="@+id/et_celularesCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Celulares(Cantidad)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_celularesKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Celulares(Kg)"
+        android:inputType="numberDecimal"
+        android:digits="0123456789,"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_tabletsCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Tablets(Cantidad)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_tabletsKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Tablets(Kg)"
+        android:inputType="numberDecimal"
+        android:digits="0123456789," />
+
+    <EditText
+        android:id="@+id/et_cpuCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="CPU's(Cantidad)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_cpusKg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="CPU's(Kg)"
+        android:inputType="numberDecimal"
+        android:digits="0123456789," />
+
+    <EditText
+        android:id="@+id/et_notebooksCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Notebooks(Cantidad)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_notebooksKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Notebooks(Kg)"
+        android:inputType="numberDecimal"
+        android:digits="0123456789," />
+
+    <EditText
+        android:id="@+id/et_otrosKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Otros(Kg)"
+        android:inputType="numberDecimal"
+        android:digits="0123456789," />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Enviar" />
+
+</LinearLayout>
